@@ -3,7 +3,7 @@ This repository has some web pages that I have made.
 
 <br><br>
 
-###In the [WebAnime](https://github.com/RoboG-11/web-pages/tree/main/WebAnime) repository
+### In the [WebAnime](https://github.com/RoboG-11/web-pages/tree/main/WebAnime) repository
 Found a web page that contains a list of 9 anime in no particular order.
 This is a gif showing the content of the page:
 ![GIF](./IMG/WebAnime.gif) 
