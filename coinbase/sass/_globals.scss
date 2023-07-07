@@ -281,12 +281,10 @@ body {
 
   .sec-benefits {
     .benefits-cards {
-      margin: 0;
-
       .benefit {
         max-width: 660px;
         width: 50%;
-        margin: 0 auto;
+        margin: 0 auto !important;
 
         .cta {
           max-width: 600;

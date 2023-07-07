@@ -341,13 +341,10 @@ body {
     text-align: center;
     justify-content: center;
   }
-  .sec-benefits .benefits-cards {
-    margin: 0;
-  }
   .sec-benefits .benefits-cards .benefit {
     max-width: 660px;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   .sec-benefits .benefits-cards .benefit .cta {
     max-width: 600;
