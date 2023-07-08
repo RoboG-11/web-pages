@@ -30,4 +30,13 @@ This is a gif showing the content of the page:
 
 <br><br>
 
+### In the [results-summary-component-main](https://github.com/RoboG-11/web-pages/tree/main/results-summary-component-main) repository
+There is a small exercise of the [frontendmentor](https://www.frontendmentor.io/) page made with only Tailwind CSS.
+
+This is a gif showing the content of the page:
+
+![GIF](./IMG/Results_summary_component.gif)
+
+<br><br>
+
 ### Coming soon...
