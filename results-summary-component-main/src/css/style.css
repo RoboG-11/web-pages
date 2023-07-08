@@ -548,6 +548,10 @@ video {
   margin-left: auto;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -560,6 +564,10 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -570,6 +578,14 @@ video {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .content-center {
@@ -601,6 +617,15 @@ video {
   border-bottom-left-radius: 1rem;
 }
 
+.bg-cobalt-blue\/10 {
+  background-color: hsl(234 85% 45% / 0.1);
+}
+
+.bg-dark-gray-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(224 30% 27% / var(--tw-bg-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -610,8 +635,8 @@ video {
   background-color: hsl(166 100% 37% / 0.1);
 }
 
-.bg-light-red\/5 {
-  background-color: hsl(0 100% 67% / 0.05);
+.bg-light-red\/10 {
+  background-color: hsl(0 100% 67% / 0.1);
 }
 
 .bg-orangey-yellow\/10 {
@@ -621,19 +646,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-.bg-cobalt-blue\/10 {
-  background-color: hsl(234 85% 45% / 0.1);
-}
-
-.bg-light-red\/10 {
-  background-color: hsl(0 100% 67% / 0.1);
-}
-
-.bg-dark-gray-blue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(224 30% 27% / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -711,6 +723,11 @@ video {
   font-weight: 700;
 }
 
+.text-cobalt-blue {
+  --tw-text-opacity: 1;
+  color: hsl(234 85% 45% / var(--tw-text-opacity));
+}
+
 .text-dark-gray-blue {
   --tw-text-opacity: 1;
   color: hsl(224 30% 27% / var(--tw-text-opacity));
@@ -743,11 +760,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-.text-cobalt-blue {
-  --tw-text-opacity: 1;
-  color: hsl(234 85% 45% / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -783,10 +795,6 @@ video {
 
   .md\:content-center {
     align-content: center;
-  }
-
-  .md\:items-center {
-    align-items: center;
   }
 
   .md\:rounded-2xl {
